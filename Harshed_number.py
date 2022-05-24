@@ -1,0 +1,11 @@
+n=int(input())
+m=n
+sum=0
+while(n>0):
+    r=n%10
+    sum=sum+r
+    n=n//10
+if(m%sum==0):
+    print(True)
+else:
+    print(False)
